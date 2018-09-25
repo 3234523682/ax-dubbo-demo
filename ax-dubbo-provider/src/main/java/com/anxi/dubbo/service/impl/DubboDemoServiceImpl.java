@@ -1,4 +1,4 @@
-package com.anxi.dibbo.service.impl;
+package com.anxi.dubbo.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.anxi.dubbo.service.DubboDemoService;

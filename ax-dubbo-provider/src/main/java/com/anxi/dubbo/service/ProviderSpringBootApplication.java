@@ -1,6 +1,7 @@
-package com.anxi.dibbo.service;
+package com.anxi.dubbo.service;
 
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
@@ -9,6 +10,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
  * @author linjing
  */
 @SpringBootApplication
+@MapperScan("com.anxi.dubbo.service.dao")
 public class ProviderSpringBootApplication {
 
     public static void main(String[] args) {
